@@ -22,8 +22,8 @@ for entry in sect:
     # Comment this and uncomment the line below if you want to just rewrite original file
     # opposite if you want to add the 112
 
-    # entry_tuple = tuple(map(sum, zip(v1 + v2 + v3, (112, 112, 112))))
-    entry_tuple = tuple(v1 + v2 + v3)
+    entry_tuple = tuple(map(sum, zip(v1 + v2 + v3, (112, 112, 112))))
+    # entry_tuple = tuple(v1 + v2 + v3)
 
     indices.append(entry_tuple)
 
